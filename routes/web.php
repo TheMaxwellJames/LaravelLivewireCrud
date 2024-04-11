@@ -1,6 +1,6 @@
 <?php
 
-
+use App\Livewire\FileUpload;
 use App\Livewire\Forms;
 use Illuminate\Support\Facades\Route;
 
@@ -22,3 +22,4 @@ Route::get('/', function () {
 
 
 Route::get('/forms', Forms::class);
+Route::get('/file', FileUpload::class);
